@@ -1,3 +1,4 @@
+import React from "react";
 import A from "./Audio/A.mp3";
 import As from "./Audio/As.mp3";
 import B from "./Audio/B.mp3";
