@@ -1,6 +1,6 @@
 {
   "name": "pocket-pitch",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://dj620.github.io/Pocket-Pitch-Desktop/",
   "type": "module",
