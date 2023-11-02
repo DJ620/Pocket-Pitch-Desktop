@@ -26,7 +26,7 @@ const allNotes = [
     {
       src: Cs,
       id: 'audio-Cs',
-      note: "C#"
+      note: "#/b"
     },
     {
       src: D,
@@ -36,7 +36,7 @@ const allNotes = [
     {
       src: Ds,
       id: 'audio-Ds',
-      note: "D#"
+      note: "#/b"
     },
     {
       src: E,
@@ -51,7 +51,7 @@ const allNotes = [
     {
       src: Fs,
       id: 'audio-Fs',
-      note: "F#"
+      note: "#/b"
     },
     {
       src: G,
@@ -61,7 +61,7 @@ const allNotes = [
     {
       src: Gs,
       id: 'audio-Gs',
-      note: "G#"
+      note: "#/b"
     },
     {
       src: A,
@@ -71,7 +71,7 @@ const allNotes = [
     {
       src: As,
       id: 'audio-As',
-      note: "A#"
+      note: "#/b"
     },
     {
       src: B,
@@ -83,26 +83,26 @@ const allNotes = [
       id: 'audio-C2',
       note: "C"
     },
-    {
-      src: Cs2,
-      id: 'audio-Cs2',
-      note: "C#"
-    },
-    {
-      src: D2,
-      id: 'audio-D2',
-      note: "D"
-    },
-    {
-      src: Ds2,
-      id: 'audio-Ds2',
-      note: "D#"
-    },
-    {
-      src: E2,
-      id: 'audio-E2',
-      note: "E"
-    }
+    // {
+    //   src: Cs2,
+    //   id: 'audio-Cs2',
+    //   note: "C#"
+    // },
+    // {
+    //   src: D2,
+    //   id: 'audio-D2',
+    //   note: "D"
+    // },
+    // {
+    //   src: Ds2,
+    //   id: 'audio-Ds2',
+    //   note: "D#"
+    // },
+    // {
+    //   src: E2,
+    //   id: 'audio-E2',
+    //   note: "E"
+    // }
   ]
 
   export default allNotes;

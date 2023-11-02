@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "@fontsource/poppins/700.css";
 
 const Note = ({note}) => {
+  const [hover, setHover] = useState(false);
     const playNote = (note) => {
         document.getElementById(note).play();
+        setHover(true);
       };
     
       const stopNote = (note) => {
           document.getElementById(note).pause();
+          setHover(false);
       };
 
       const noteBtn = {
@@ -15,7 +18,10 @@ const Note = ({note}) => {
         width: '50px',
         borderRadius: '50px',
         color: 'red',
-        fontWeight: '700'
+        fontWeight: '700',
+        background: hover ? 'lightgray' : 'white',
+        cursor: 'pointer',
+        marginRight: '10px'
       }
 
   return (
