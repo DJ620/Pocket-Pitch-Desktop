@@ -13,9 +13,9 @@ const Note = ({ note, loop, currentNote, playNote }) => {
   }, [currentNote, loop, playNote]);
 
       const noteBtn = {
-        height: '50px',
-        width: '50px',
-        borderRadius: '50px',
+        height: '60px',
+        width: '60px',
+        borderRadius: '60px',
         color: playing ? 'white' : 'red',
         fontWeight: '700',
         background: playing ? 'none' : 'white',

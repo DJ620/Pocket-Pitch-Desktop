@@ -21,67 +21,80 @@ const allNotes = [
     {
       src: C1,
       id: 'audio-C1',
-      note: "C"
+      note: "C4",
+      class: "deg-0 position-C4"
     },
     {
       src: Cs,
       id: 'audio-Cs',
-      note: "#/b"
+      note: "#/b",
+      class: 'deg-45 position-Cs'
     },
     {
       src: D,
       id: 'audio-D',
-      note: "D"
+      note: "D",
+      class: 'deg-90 position-D'
     },
     {
       src: Ds,
       id: 'audio-Ds',
-      note: "#/b"
+      note: "#/b",
+      class: 'deg-135 position-Ds'
     },
     {
       src: E,
       id: 'audio-E',
-      note: "E"
+      note: "E",
+      class: 'deg-180 position-E'
     },
     {
       src: F,
       id: 'audio-F',
-      note: "F"
+      note: "F",
+      class: 'deg-225 position-F'
     },
     {
       src: Fs,
       id: 'audio-Fs',
-      note: "#/b"
+      note: "#/b",
+      class: 'deg-270 position-Fs'
     },
     {
       src: G,
       id: 'audio-G',
-      note: "G"
+      note: "G",
+      class: 'deg-315 position-G'
     },
     {
       src: Gs,
       id: 'audio-Gs',
-      note: "#/b"
+      note: "#/b",
+      class: 'deg-208 position-Gs'
     },
     {
       src: A,
       id: 'audio-A',
-      note: "A"
+      note: "A",
+      class: 'deg-234 position-A'
     },
     {
       src: As,
       id: 'audio-As',
-      note: "#/b"
+      note: "#/b",
+      class: 'deg-260 position-As'
     },
     {
       src: B,
       id: 'audio-B',
-      note: "B"
+      note: "B",
+      class: 'deg-286 position-B'
     },
     {
       src: C2,
       id: 'audio-C2',
-      note: "C"
+      note: "C5",
+      class: 'deg-312 position-C5'
     },
     // {
     //   src: Cs2,

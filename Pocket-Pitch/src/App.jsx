@@ -61,10 +61,10 @@ const App = () => {
       <h1 style={titleStyles} className="ppTitle">Pocket Pitch</h1>
       <h3 style={{ marginTop: '0px'}}>Pitch Pipe</h3>
       <button style={loopStyles} onClick={() => handleLoopClick()}>Loop</button>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="circle-wrapper">
         {allNotes.map((note) => {
           return (
-            <div key={note.id} onMouseDown={() => handlePlay(note)} onMouseUp={() => handlePause()}>
+            <div key={note.id} onMouseDown={() => handlePlay(note)} onMouseUp={() => handlePause()} className={`circleNote ${note.class}`}>
               <MusicNotes  note={note} loop={loop} currentNote={currentNote} playNote={playNote}/>
             </div>
           );
