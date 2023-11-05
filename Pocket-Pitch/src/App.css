@@ -1,0 +1,79 @@
+* {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.circle-wrapper {
+    /* border: 1px solid black; */
+    width:288px;
+   height:283px;
+   position:relative;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.circleNote {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 40.5%;
+}
+
+.position-Ds {
+    transform:rotate(8.52deg) translate(120px) rotate(-8.52deg);
+ }
+ 
+ .position-E {
+    transform:rotate(35.68deg) translate(120px) rotate(-35.68deg);
+ }
+ 
+ .position-F {
+
+    transform:rotate(62.84deg) translate(120px) rotate(-62.84deg);
+ }
+ 
+ .position-Fs {
+    transform:rotate(90deg) translate(120px) rotate(-90deg);
+ }
+ 
+ .position-G {
+    transform:rotate(117.2deg) translate(120px) rotate(-117.2deg);
+ }
+ 
+ .position-Gs {
+    transform:rotate(144.36deg) translate(120px) rotate(-144.36deg);
+ }
+ 
+ .position-A {
+    transform:rotate(171.52deg) translate(120px) rotate(-171.52deg);
+ }
+ 
+ .position-As {
+    transform:rotate(198.68deg) translate(120px) rotate(-198.68deg);
+ }
+
+ .position-B {
+    transform:rotate(225.84deg) translate(120px) rotate(-225.84deg);
+ }
+
+ .position-C5 {
+    transform:rotate(253deg) translate(120px) rotate(-253deg);
+ }
+
+ .position-C4 {
+    transform:rotate(286deg) translate(120px) rotate(-286deg);
+ }
+
+ .position-Cs {
+    transform:rotate(313.16deg) translate(120px) rotate(-313.16deg);
+ }
+
+ .position-D {
+    transform:rotate(340.32deg) translate(120px) rotate(-340.32deg);
+ }
+
+ .musicDot {
+    position: absolute;
+    top: 19px;
+    left: 138.45px;
+ }
