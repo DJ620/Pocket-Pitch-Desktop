@@ -3,6 +3,10 @@
     font-weight: 400;
 }
 
+html{
+   overflow-x: hidden;
+}
+
 .circle-wrapper {
     /* border: 1px solid black; */
     width:288px;
