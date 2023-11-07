@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Pocket-Pitch-Desktop/sw.js', { scope: '/Pocket-Pitch-Desktop/' })})}
